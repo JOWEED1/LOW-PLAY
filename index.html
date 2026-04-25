@@ -10,11 +10,18 @@
     .hero { padding: 40px 0; text-align: center; }
     .hero h1 { margin: 0; font-size: 3rem; letter-spacing: 0.06em; color: #f4c542; }
     .hero p { margin: 20px auto 0; max-width: 720px; color: #dcdcdc; line-height: 1.8; }
-    .section { margin: 40px 0; padding: 30px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; }
+    .section { margin: 40px 0; padding: 30px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.10); border-radius: 22px; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
     .section h2 { margin-top: 0; color: #ffe4a6; }
     ul { margin: 0; padding-left: 1.4rem; }
-    li { margin-bottom: 10px; line-height: 1.7; }
-    blockquote { margin: 24px 0; padding: 18px 24px; border-left: 4px solid #f4c542; background: rgba(244,197,66,0.08); color: #fff; }
+    li { margin-bottom: 10px; line-height: 1.8; }
+    blockquote { margin: 24px 0; padding: 22px 26px; border-left: 4px solid #f4c542; background: rgba(244,197,66,0.12); color: #fff; }
+    .contact-form { display: grid; gap: 18px; margin-top: 16px; }
+    .contact-form label { display: block; font-size: 0.95rem; margin-bottom: 8px; color: #dcdcdc; }
+    .contact-form input,
+    .contact-form textarea { width: 100%; border: 1px solid rgba(255,255,255,0.18); border-radius: 14px; background: rgba(255,255,255,0.06); color: #f5f5f5; padding: 14px 16px; font-size: 1rem; }
+    .contact-form textarea { min-height: 140px; resize: vertical; }
+    .button { display: inline-block; padding: 14px 28px; background: linear-gradient(135deg, #f4c542, #d3892f); color: #000; text-decoration: none; font-weight: 700; border-radius: 999px; border: none; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(244,197,66,0.25); }
     footer { text-align: center; padding: 28px 0 10px; color: #9e9e9e; font-size: 0.95rem; }
     .note { color: #c9d1ff; }
   </style>
@@ -23,16 +30,29 @@
   <div class="page">
     <div class="hero">
       <h1>LOW PLAY</h1>
-      <p>Lujo marciano aterriza en tu mundo. Una experiencia premium pensada para marcas VIP, socios discretos e inversores inteligentes que buscan alto retorno con máxima confidencialidad.</p>
-      <p class="note">Empieza a vender ya: ofrecemos comisión del 60% a marcas seleccionadas y espacio para ventas directas desde hoy.</p>
+      <p>Lujo marciano aterriza en tu mundo. Una experiencia premium diseñada para marcas VIP, socios discretos e inversores inteligentes que exigen calidad superior y máxima seguridad.</p>
+      <p class="note">Empieza a vender ya: ofrecemos comisión del 60% a marcas seleccionadas y activación inmediata para ventas directas.</p>
+      <p class="note">Calidad de alto nivel, respaldo seguro y promoción profesional en un mismo proyecto.</p>
+      <p class="note" style="font-size: 1.2rem; font-weight: bold;">¡Llama ahora! Contacta para asociarte y empezar a generar ingresos hoy mismo.</p>
     </div>
 
     <div class="section">
       <h2>Nivel Lujo</h2>
       <ul>
         <li>Colecciones exclusivas de moda y accesorios de lujo.</li>
-        <li>Cosmética de última generación para pieles interestelares.</li>
+        <li>Perfumes selectos y fragancias premium para clientes exigentes.</li>
+        <li>Joyas y piezas de alta gama diseñadas para un mercado exclusivo.</li>
         <li>Experiencias de compra VIP con envío directo desde la órbita.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Perfumes y joyas en tiempo récord</h2>
+      <ul>
+        <li>Activación rápida de marcas de fragancias y joyería selecta.</li>
+        <li>Ventas inmediatas con campañas de lanzamiento aceleradas.</li>
+        <li>Promoción directa a clientes VIP en tiempo real.</li>
+        <li>Logística y entrega optimizada para respuestas veloces.</li>
       </ul>
     </div>
 
@@ -50,10 +70,21 @@
       <ul>
         <li>Transacciones cifradas con SSL/TLS y autenticación de múltiples factores.</li>
         <li>Protección de datos personales y de pago en almacenamiento seguro.</li>
-        <li>Monitoreo anti-fraude en tiempo real para bloquear transacciones sospechosas.</li>
-        <li>Respaldo continuo y recuperación de información en todo momento.</li>
-        <li>Control de acceso interno y auditorías regulares.</li>
-        <li>Políticas de privacidad y eliminación de datos según las mejores prácticas.</li>
+        <li>Monitoreo anti-fraude en tiempo real para detectar y bloquear riesgos.</li>
+        <li>Respaldo continuo, recuperación de información y copias de seguridad off-site.</li>
+        <li>Control de acceso interno con permisos estrictos y auditorías regulares.</li>
+        <li>Firewall, protección DDoS y cumplimiento de buenas prácticas de seguridad.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Calidad premium y servicio superior</h2>
+      <ul>
+        <li>Diseño de página optimizado para experiencias de alto nivel.</li>
+        <li>Contenido profesional dirigido a marcas de perfumes, joyas y lujo.</li>
+        <li>Operaciones apoyadas en procesos de calidad y revisión constante.</li>
+        <li>Soporte personalizado y comunicación dedicada para cada socio.</li>
+        <li>Entrega de resultados con rapidez sin comprometer la seguridad.</li>
       </ul>
     </div>
 
@@ -65,6 +96,7 @@
         <li>Protocolos de consentimiento y medidas de protección en cada punto de contacto.</li>
         <li>Alertas de seguridad instantáneas y respuestas rápidas ante cualquier riesgo.</li>
         <li>Política de cero tolerancia para compromisos de datos o acciones no autorizadas.</li>
+        <li>Evaluación de riesgos y validación de identidad para cada socio nuevo.</li>
       </ul>
       <blockquote>Operamos con máxima precaución: cada movimiento se valida, protege y monitorea antes de avanzar.</blockquote>
     </div>
@@ -113,6 +145,18 @@
     </div>
 
     <div class="section">
+      <h2>Promoción de la tienda</h2>
+      <ul>
+        <li>Enlace directo listo para compartir: <strong>https://LOWPLAY.IT</strong></li>
+        <li>Mensaje comercial diseñado para captar marcas VIP e inversores inteligentes.</li>
+        <li>Presencia en canales selectos con contenido exclusivo de alto valor.</li>
+        <li>Seguimiento de resultados y métricas de interés para cada campaña.</li>
+        <li>Optimización constante de la página para convertir visitantes en socios y clientes.</li>
+      </ul>
+      <blockquote>Promocionamos la tienda con un enfoque inteligente: visibilidad selectiva, mensajes de alto impacto y resultados medibles.</blockquote>
+    </div>
+
+    <div class="section">
       <h2>Empieza a vender ahora</h2>
       <ul>
         <li>Entra en nuestra red y vende a clientes VIP desde el primer día.</li>
@@ -143,6 +187,21 @@
         <li>Mensajes de bienvenida configurados para responder profesionalmente.</li>
         <li>Un flujo seguro de comunicación para no perder ninguna oportunidad.</li>
       </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contacto directo</h2>
+      <p>Escribe tu propuesta, marca o inversión deseada y te contactaremos con una respuesta prioritaria.</p>
+      <form class="contact-form" action="mailto:srttojowii@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nombre / Marca</label>
+        <input id="name" name="name" type="text" placeholder="Tu nombre o marca" required />
+        <label for="email">Email de contacto</label>
+        <input id="email" name="email" type="email" placeholder="correo@dominio.com" required />
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Describe tu producto, inversión o propuesta..." required></textarea>
+        <button class="button" type="submit">Enviar propuesta</button>
+      </form>
+      <p style="margin-top: 20px; font-size: 1.1rem; color: #29201e;">¡No esperes! Llama o escribe ahora para asociarte con LOW PLAY y empezar a vender perfumes y joyas de lujo.</p>
     </div>
 
     <footer>
