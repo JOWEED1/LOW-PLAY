@@ -1,5 +1,4 @@
-# LOW-PLAY.COM
-
+# LOW-PLAY.es
 ## Bienvenido a LOW PLAY: lujo marciano aterriza en tu mundo
 
 En LOW PLAY hemos traído a Marte la mejor selección de marcas de alto nivel y cosmética premium. Aquí la elegancia no tiene gravedad y los precios siguen siendo EXCELENTES y ECONÓMICOS.
